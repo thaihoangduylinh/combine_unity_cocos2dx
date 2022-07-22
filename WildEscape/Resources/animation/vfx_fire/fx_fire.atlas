@@ -1,0 +1,76 @@
+
+fx_fire.png
+size: 294,286
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: true
+  xy: 63, 2
+  size: 54, 40
+  orig: 126, 126
+  offset: 37, 1
+  index: -1
+10
+  rotate: false
+  xy: 2, 171
+  size: 93, 113
+  orig: 126, 126
+  offset: 19, 4
+  index: -1
+12
+  rotate: false
+  xy: 2, 58
+  size: 93, 111
+  orig: 126, 126
+  offset: 20, 7
+  index: -1
+14
+  rotate: false
+  xy: 209, 176
+  size: 83, 108
+  orig: 126, 126
+  offset: 30, 12
+  index: -1
+16
+  rotate: true
+  xy: 105, 20
+  size: 75, 95
+  orig: 126, 126
+  offset: 32, 22
+  index: -1
+18
+  rotate: true
+  xy: 2, 5
+  size: 51, 59
+  orig: 126, 126
+  offset: 39, 34
+  index: -1
+2
+  rotate: true
+  xy: 202, 3
+  size: 69, 84
+  orig: 126, 126
+  offset: 28, 2
+  index: -1
+4
+  rotate: false
+  xy: 203, 74
+  size: 89, 100
+  orig: 126, 126
+  offset: 20, 2
+  index: -1
+6
+  rotate: true
+  xy: 97, 97
+  size: 92, 104
+  orig: 126, 126
+  offset: 19, 3
+  index: -1
+8
+  rotate: true
+  xy: 97, 191
+  size: 93, 110
+  orig: 126, 126
+  offset: 19, 3
+  index: -1

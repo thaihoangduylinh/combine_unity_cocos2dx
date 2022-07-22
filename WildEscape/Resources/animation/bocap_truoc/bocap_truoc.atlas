@@ -1,0 +1,83 @@
+
+bocap_truoc.png
+size: 142,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+23
+  rotate: false
+  xy: 2, 2
+  size: 28, 13
+  orig: 30, 15
+  offset: 1, 1
+  index: -1
+41
+  rotate: false
+  xy: 32, 2
+  size: 28, 13
+  orig: 30, 15
+  offset: 1, 1
+  index: -1
+Layer 5
+  rotate: false
+  xy: 33, 22
+  size: 28, 13
+  orig: 30, 15
+  offset: 1, 1
+  index: -1
+Layer 52
+  rotate: false
+  xy: 63, 22
+  size: 28, 13
+  orig: 30, 15
+  offset: 1, 1
+  index: -1
+Layer 555
+  rotate: false
+  xy: 2, 17
+  size: 29, 59
+  orig: 31, 61
+  offset: 1, 1
+  index: -1
+Layer 581
+  rotate: false
+  xy: 93, 22
+  size: 28, 13
+  orig: 30, 15
+  offset: 1, 1
+  index: -1
+Layer 583
+  rotate: false
+  xy: 62, 7
+  size: 28, 13
+  orig: 30, 15
+  offset: 1, 1
+  index: -1
+cang
+  rotate: false
+  xy: 129, 62
+  size: 11, 14
+  orig: 13, 16
+  offset: 1, 1
+  index: -1
+cang 3
+  rotate: false
+  xy: 81, 37
+  size: 46, 39
+  orig: 48, 41
+  offset: 1, 1
+  index: -1
+cang1
+  rotate: false
+  xy: 129, 46
+  size: 11, 14
+  orig: 13, 16
+  offset: 1, 1
+  index: -1
+cang2
+  rotate: false
+  xy: 33, 37
+  size: 46, 39
+  orig: 48, 41
+  offset: 1, 1
+  index: -1

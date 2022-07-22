@@ -1,0 +1,62 @@
+
+chim_sau.png
+size: 136,93
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1canh
+  rotate: true
+  xy: 90, 20
+  size: 16, 42
+  orig: 18, 44
+  offset: 1, 1
+  index: -1
+1canh2
+  rotate: true
+  xy: 90, 2
+  size: 16, 42
+  orig: 18, 44
+  offset: 1, 1
+  index: -1
+1dau
+  rotate: false
+  xy: 99, 45
+  size: 35, 46
+  orig: 37, 48
+  offset: 1, 1
+  index: -1
+1than
+  rotate: false
+  xy: 68, 38
+  size: 29, 53
+  orig: 31, 55
+  offset: 1, 1
+  index: -1
+2canh
+  rotate: false
+  xy: 2, 2
+  size: 42, 33
+  orig: 44, 35
+  offset: 1, 1
+  index: -1
+2canh2
+  rotate: false
+  xy: 46, 2
+  size: 42, 33
+  orig: 44, 35
+  offset: 1, 1
+  index: -1
+3canh
+  rotate: true
+  xy: 2, 37
+  size: 54, 31
+  orig: 56, 33
+  offset: 1, 1
+  index: -1
+3canh2
+  rotate: true
+  xy: 35, 37
+  size: 54, 31
+  orig: 56, 33
+  offset: 1, 1
+  index: -1

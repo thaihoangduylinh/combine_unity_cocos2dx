@@ -1,0 +1,69 @@
+
+vfx_electric.png
+size: 788,111
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 751, 74
+  size: 35, 35
+  orig: 256, 144
+  offset: 111, 57
+  index: -1
+11
+  rotate: true
+  xy: 381, 8
+  size: 101, 92
+  orig: 256, 144
+  offset: 77, 28
+  index: -1
+13
+  rotate: true
+  xy: 195, 8
+  size: 101, 93
+  orig: 256, 144
+  offset: 77, 28
+  index: -1
+15
+  rotate: true
+  xy: 100, 6
+  size: 103, 93
+  orig: 256, 144
+  offset: 76, 28
+  index: -1
+17
+  rotate: false
+  xy: 571, 17
+  size: 91, 92
+  orig: 256, 144
+  offset: 75, 27
+  index: -1
+3
+  rotate: false
+  xy: 664, 23
+  size: 85, 86
+  orig: 256, 144
+  offset: 85, 29
+  index: -1
+5
+  rotate: false
+  xy: 2, 2
+  size: 96, 107
+  orig: 256, 144
+  offset: 81, 18
+  index: -1
+7
+  rotate: false
+  xy: 475, 15
+  size: 94, 94
+  orig: 256, 144
+  offset: 81, 23
+  index: -1
+9
+  rotate: true
+  xy: 290, 4
+  size: 105, 89
+  orig: 256, 144
+  offset: 76, 30
+  index: -1

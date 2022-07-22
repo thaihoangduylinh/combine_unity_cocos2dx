@@ -1,0 +1,34 @@
+
+gau_sau.png
+size: 207,139
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chan1
+  rotate: false
+  xy: 128, 22
+  size: 39, 49
+  orig: 39, 49
+  offset: 0, 0
+  index: -1
+chan2
+  rotate: false
+  xy: 169, 40
+  size: 36, 31
+  orig: 38, 33
+  offset: 1, 1
+  index: -1
+dau
+  rotate: true
+  xy: 128, 73
+  size: 64, 65
+  orig: 66, 67
+  offset: 1, 1
+  index: -1
+than
+  rotate: true
+  xy: 2, 2
+  size: 135, 124
+  orig: 135, 124
+  offset: 0, 0
+  index: -1

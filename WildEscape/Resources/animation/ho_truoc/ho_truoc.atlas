@@ -1,0 +1,41 @@
+
+ho_truoc.png
+size: 258,79
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1dau
+  rotate: false
+  xy: 2, 4
+  size: 91, 73
+  orig: 93, 75
+  offset: 1, 1
+  index: -1
+1than
+  rotate: false
+  xy: 152, 2
+  size: 47, 75
+  orig: 49, 77
+  offset: 1, 1
+  index: -1
+1thantruoc
+  rotate: false
+  xy: 95, 7
+  size: 55, 70
+  orig: 57, 72
+  offset: 1, 1
+  index: -1
+2duoi
+  rotate: true
+  xy: 201, 11
+  size: 12, 53
+  orig: 12, 53
+  offset: 0, 0
+  index: -1
+2thantruoc
+  rotate: false
+  xy: 201, 25
+  size: 55, 52
+  orig: 57, 54
+  offset: 1, 1
+  index: -1

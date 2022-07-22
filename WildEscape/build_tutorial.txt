@@ -1,0 +1,20 @@
+
+Build bằng cmake nên:
+
+*Đối với windows:
+
+- Tạo thư mục rỗng ở cùng cấp với thư mục Classes (vd build_win)
+
+- CD vào thư mục và chạy câu lệnh, tùy theo version visual studio mà chọn câu lệnh bênh dưới.
+
+cmake .. -G"Visual Studio 15 2017" -Tv141
+cmake .. -G"Visual Studio 16 2019" -Tv142 -A win32 
+cmake .. -G"Visual Studio 17 2022" -Tv143 -A win32 
+
+*Đối với android :
+
+- thì mở lên build thôi, thiếu sdk gì thì Android Studio sẽ báo.
+
+Lưu ý:
++ Cơ chế build cmake đã setup tự động quét file .h,.cpp,.mm .... (xem trong file cmake.txt) nên khi thêm file thì chỉ cần thay đổi file cmake (vd thêm dòng mới ) thì nó sẽ tự động syn và import vào.
++ Windows: visual phải chạy dưới quyền admin ( vì thư mục Resource dạng link folder).

@@ -1,0 +1,69 @@
+
+bocap_sau.png
+size: 74,138
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 574
+  rotate: false
+  xy: 2, 68
+  size: 30, 68
+  orig: 32, 70
+  offset: 1, 1
+  index: -1
+Layer 575
+  rotate: true
+  xy: 40, 2
+  size: 33, 15
+  orig: 35, 17
+  offset: 1, 1
+  index: -1
+Layer 575 copy
+  rotate: true
+  xy: 57, 2
+  size: 33, 15
+  orig: 35, 17
+  offset: 1, 1
+  index: -1
+Layer 576
+  rotate: false
+  xy: 2, 3
+  size: 36, 16
+  orig: 38, 18
+  offset: 1, 1
+  index: -1
+Layer 576 copy
+  rotate: false
+  xy: 34, 73
+  size: 36, 16
+  orig: 38, 18
+  offset: 1, 1
+  index: -1
+Layer 577
+  rotate: false
+  xy: 35, 55
+  size: 33, 16
+  orig: 35, 18
+  offset: 1, 1
+  index: -1
+Layer 577 copy
+  rotate: false
+  xy: 35, 37
+  size: 33, 16
+  orig: 35, 18
+  offset: 1, 1
+  index: -1
+cangphai
+  rotate: false
+  xy: 34, 91
+  size: 31, 45
+  orig: 33, 47
+  offset: 1, 1
+  index: -1
+cangtrai
+  rotate: false
+  xy: 2, 21
+  size: 31, 45
+  orig: 33, 47
+  offset: 1, 1
+  index: -1

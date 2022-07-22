@@ -1,0 +1,81 @@
+<Solution>
+  <PropertyGroup Name="mjv2" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Folder Name="ui">
+            <Folder Name="layer">
+              <Project Name="GuideLayer.csd" Type="Layer" />
+              <Project Name="LeaderboardLayer.csd" Type="Layer" />
+              <Project Name="PauseLayer.csd" Type="Layer" />
+              <Project Name="WaitingLayer.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="scene">
+              <Project Name="JungleGameScene.csd" Type="Layer" />
+              <Project Name="MainMenuScene.csd" Type="Layer" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="arial.ttf" />
+          <TTF Name="ChangaOne-Italic.ttf" />
+          <TTF Name="ChangaOne-Regular.ttf" />
+          <TTF Name="Marker Felt.ttf" />
+        </Folder>
+        <Folder Name="images">
+          <Image Name="back.png" />
+          <Image Name="back_text.png" />
+          <Image Name="bar.png" />
+          <Image Name="bgr_co1.png" />
+          <Image Name="bgr_co2.png" />
+          <Image Name="bgr_co3.png" />
+          <Image Name="bgr_dat.png" />
+          <Image Name="bgrblack.png" />
+          <Image Name="button.png" />
+          <Image Name="button_play1.png" />
+          <Image Name="button_play2.png" />
+          <Image Name="button2.png" />
+          <Image Name="button2_1.png" />
+          <Image Name="button2_2.png" />
+          <Image Name="cay.png" />
+          <Image Name="da1.png" />
+          <Image Name="da2.png" />
+          <Image Name="design_view.png" />
+          <Image Name="duoiuoi_truoc.png" />
+          <Image Name="GUIDE.png" />
+          <Image Name="guide_content.png" />
+          <Image Name="GUIDE1.png" />
+          <Image Name="hand.png" />
+          <Image Name="HIGH SCORE.png" />
+          <Image Name="home.png" />
+          <Image Name="homebgr.png" />
+          <Image Name="hp_bar.png" />
+          <Image Name="hp_bar_bg.png" />
+          <Image Name="music_off.png" />
+          <Image Name="music_on.png" />
+          <Image Name="OK.png" />
+          <Image Name="pause.png" />
+          <Image Name="pause1.png" />
+          <Image Name="play.png" />
+          <Image Name="policy.png" />
+          <Image Name="popup1.png" />
+          <Image Name="popup2.png" />
+          <Image Name="rank.png" />
+          <Image Name="Rank1.png" />
+          <Image Name="rank2.png" />
+          <Image Name="rank3.png" />
+          <Image Name="replay.png" />
+          <Image Name="SCORE_.png" />
+          <Image Name="shadow.png" />
+          <Image Name="sound_off.png" />
+          <Image Name="sound_on.png" />
+          <Image Name="title_game.png" />
+          <Image Name="vachdich.png" />
+          <Image Name="WONDERFUL.png" />
+          <Image Name="x_.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

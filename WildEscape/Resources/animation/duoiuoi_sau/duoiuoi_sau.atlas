@@ -1,0 +1,48 @@
+
+duoiuoi_sau.png
+size: 141,174
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chantrai2
+  rotate: false
+  xy: 101, 75
+  size: 38, 97
+  orig: 70, 97
+  offset: 0, 0
+  index: -1
+chantrai2 copy
+  rotate: true
+  xy: 2, 64
+  size: 38, 97
+  orig: 70, 97
+  offset: 32, 0
+  index: -1
+dau
+  rotate: false
+  xy: 2, 3
+  size: 43, 59
+  orig: 45, 61
+  offset: 1, 1
+  index: -1
+tayphai2
+  rotate: false
+  xy: 101, 13
+  size: 33, 60
+  orig: 35, 62
+  offset: 1, 1
+  index: -1
+taytrai2
+  rotate: false
+  xy: 47, 2
+  size: 33, 60
+  orig: 35, 62
+  offset: 1, 1
+  index: -1
+than
+  rotate: true
+  xy: 2, 104
+  size: 68, 97
+  orig: 70, 99
+  offset: 1, 1
+  index: -1

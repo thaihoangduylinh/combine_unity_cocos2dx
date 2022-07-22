@@ -3,21 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-#if UNITY_IOS
 public class NativeAPI
 {
+#if UNITY_IOS
     [DllImport("__Internal")]
     public static extern void exitUnity();
 
     [DllImport("__Internal")]
     public static extern string getDataFromIOSProject(string key);
 
-}
-#endif
+#else //elif UNITY_ANDROID
 
-
-public class NativeController : MonoBehaviour
-{
     public static string getStringData(string className, string instanceName, string defaultValue, string functionName, params object[] args)
     {
         Debug.Log("xxxxx getStringData");
@@ -72,15 +68,22 @@ public class NativeController : MonoBehaviour
 
         }
     }
+#endif
+}
+
+
+public class NativeController : MonoBehaviour
+{
+
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        
+
     }
 
     void onButtonClick()
@@ -91,7 +94,7 @@ public class NativeController : MonoBehaviour
 
 #elif UNITY_ANDROID
 
-            callVoidMethod("org.cocos2dx.cpp.MainUnityActivity", "instance", "onUnityPlayerUnloaded");
+            NativeAPI.callVoidMethod("org.cocos2dx.cpp.MainUnityActivity", "instance", "onUnityPlayerUnloaded");
 #endif
     }
 

@@ -33,6 +33,8 @@
 }
 
 @property(nonatomic, readonly) RootViewController* viewController;
-
+//unity region
+-(void) setStringData:(std::string)key withData:(std::string) stringData;
+-(void) launchUnity;
 @end
 

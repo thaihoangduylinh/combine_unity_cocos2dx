@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NativeAPI
 {
@@ -75,9 +77,27 @@ public class NativeAPI
 public class NativeController : MonoBehaviour
 {
 
+    public Text _text;
+
+    public static bool _isJumpLeft = false;
+    public static bool _isJumpRight = false;
 
     void Start()
     {
+        _isJumpLeft = false;
+
+        _isJumpRight = false;
+
+        Application.targetFrameRate = 60;
+
+#if UNITY_IOS
+
+        var data =  NativeAPI.getDataFromIOSProject("game_score");
+
+        Debug.Log("xxxx data:" + data);
+
+        _text.text = data;
+#endif
 
     }
 
@@ -86,8 +106,22 @@ public class NativeController : MonoBehaviour
 
     }
 
-    void onButtonClick()
+    public void onJumpLeftButtonClicked()
     {
+        NativeController._isJumpLeft = !NativeController._isJumpLeft;
+    }
+
+
+    public void onJumpRightButtonClicked()
+    {
+        NativeController._isJumpRight = !NativeController._isJumpRight;
+    }
+
+    public void onButtonClick()
+    {
+
+        Debug.Log("hahahaha");
+
 #if UNITY_IOS
 
             NativeAPI.exitUnity();

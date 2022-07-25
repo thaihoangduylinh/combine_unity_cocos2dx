@@ -33,6 +33,19 @@ public class Player : MonoBehaviour
         touchingGround = Physics2D.OverlapCircle(groundCheckPoint.position, groundCheckRadius, groundLayer);//Check if the player stands on an onj that he can jump
 
         movement = Input.GetAxis("Horizontal");
+
+        Debug.Log("movement:" + movement);
+
+        if(NativeController._isJumpLeft)
+        {
+            movement = -0.3f;
+        }
+
+        if (NativeController._isJumpRight)
+        {
+            movement = +0.3f;
+        }
+
         if (movement > 0f)
         {
             rigidBody.velocity = new Vector2(movement * speed, rigidBody.velocity.y);
@@ -46,7 +59,7 @@ public class Player : MonoBehaviour
 
         }
        
-        if (Input.GetButtonDown("Jump") && touchingGround)
+        if ((NativeController._isJumpLeft|| NativeController._isJumpRight) && touchingGround)
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, JumpSpeed);
         }
@@ -61,6 +74,9 @@ public class Player : MonoBehaviour
         playerAnimation.SetFloat("Speed", Mathf.Abs(rigidBody.velocity.x));
         playerAnimation.SetBool("TouchingGround", touchingGround);
         playerAnimation.SetBool("PlayerFalling", playerFalling);
+
+        NativeController._isJumpRight = false;
+        NativeController._isJumpLeft = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)

@@ -47,6 +47,11 @@
 		302BE5452885702900C4BEF3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 302BE53C2885702900C4BEF3 /* images */; };
 		302BE5462885702900C4BEF3 /* csb in Resources */ = {isa = PBXBuildFile; fileRef = 302BE53D2885702900C4BEF3 /* csb */; };
 		302BE5472885702900C4BEF3 /* csb in Resources */ = {isa = PBXBuildFile; fileRef = 302BE53D2885702900C4BEF3 /* csb */; };
+		3049B73D288AAF0C00694687 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3049B73B288AAF0C00694687 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3049B742288AB27E00694687 /* DataManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3049B73F288AB27E00694687 /* DataManager.mm */; };
+		3049B743288AB27E00694687 /* DataManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3049B73F288AB27E00694687 /* DataManager.mm */; };
+		3049B744288AB27E00694687 /* DataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3049B740288AB27E00694687 /* DataManager.cpp */; };
+		3049B745288AB27E00694687 /* DataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3049B740288AB27E00694687 /* DataManager.cpp */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
@@ -113,6 +118,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3049B73E288AAF0C00694687 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3049B73D288AAF0C00694687 /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A88B2631FC3D9C9005C14AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
@@ -156,6 +175,10 @@
 		302BE53B2885702900C4BEF3 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		302BE53C2885702900C4BEF3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		302BE53D2885702900C4BEF3 /* csb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = csb; sourceTree = "<group>"; };
+		3049B73B288AAF0C00694687 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049B73F288AB27E00694687 /* DataManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataManager.mm; sourceTree = "<group>"; };
+		3049B740288AB27E00694687 /* DataManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataManager.cpp; sourceTree = "<group>"; };
+		3049B741288AB27E00694687 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
@@ -278,6 +301,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3049B73B288AAF0C00694687 /* UnityFramework.framework */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
@@ -305,6 +329,9 @@
 		302BE50E2885701500C4BEF3 /* helper */ = {
 			isa = PBXGroup;
 			children = (
+				3049B740288AB27E00694687 /* DataManager.cpp */,
+				3049B741288AB27E00694687 /* DataManager.h */,
+				3049B73F288AB27E00694687 /* DataManager.mm */,
 				302BE50F2885701500C4BEF3 /* SoundManager.cpp */,
 				302BE5102885701500C4BEF3 /* HelperManager.h */,
 				302BE5112885701500C4BEF3 /* AnimationManager.cpp */,
@@ -416,6 +443,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				3049B73E288AAF0C00694687 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -547,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302BE5292885701500C4BEF3 /* AnimationManager.cpp in Sources */,
+				3049B744288AB27E00694687 /* DataManager.cpp in Sources */,
 				302BE5312885701500C4BEF3 /* LeaderboardLayer.cpp in Sources */,
 				1AF87B781F6F77F7007BE51C /* AppController.mm in Sources */,
 				302BE52D2885701500C4BEF3 /* GuideLayer.cpp in Sources */,
@@ -555,6 +584,7 @@
 				1AF87B8B1F6F782A007BE51C /* RootViewController.mm in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				302BE5372885701500C4BEF3 /* JungleGameScene.cpp in Sources */,
+				3049B742288AB27E00694687 /* DataManager.mm in Sources */,
 				302BE52F2885701500C4BEF3 /* WaitingLayer.cpp in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
 				302BE5352885701500C4BEF3 /* MainMenuScene.cpp in Sources */,
@@ -569,7 +599,9 @@
 				302BE5342885701500C4BEF3 /* PauseLayer.cpp in Sources */,
 				302BE52A2885701500C4BEF3 /* AnimationManager.cpp in Sources */,
 				302BE52C2885701500C4BEF3 /* HelperManager.cpp in Sources */,
+				3049B743288AB27E00694687 /* DataManager.mm in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				3049B745288AB27E00694687 /* DataManager.cpp in Sources */,
 				302BE5282885701500C4BEF3 /* SoundManager.cpp in Sources */,
 				302BE52E2885701500C4BEF3 /* GuideLayer.cpp in Sources */,
 				302BE5302885701500C4BEF3 /* WaitingLayer.cpp in Sources */,
@@ -618,6 +650,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
@@ -652,6 +685,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",

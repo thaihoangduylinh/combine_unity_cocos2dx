@@ -6,7 +6,7 @@
 #include "AnimationManager.h"
 #include "audio/include/SimpleAudioEngine.h"
 #include "SoundManager.h"
-
+#include "DataManager.h"
 using namespace CocosDenshion;
 
 USING_NS_CC;
@@ -121,13 +121,6 @@ void MainMenuScene::didLoadFromCSB()
 
         button->loadTexture(!isSoundOn ? "images/sound_off.png" : "images/sound_on.png");
     }
-
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-
-    if (auto policyButton = utils::findChild(this, "policy_button")) {
-        policyButton->setVisible(false);
-    }
-#endif
 }
 
 void MainMenuScene::onPlayButtonClicked(cocos2d::Ref* sender)
@@ -141,12 +134,14 @@ void MainMenuScene::onPolicyButtonClicked(cocos2d::Ref * sender)
 {
     SOUND_MANAGER->playClickEffect();
 
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
-    Application::getInstance()->openURL("https://google.com");
-#elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-
-#endif
-
+    DataManager::getInstance()->setStringData("game_score","cocos call unity .... hihi from cocos hihi !");
+    
+    Director::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+        
+        DataManager::getInstance()->launchUnity();
+        
+    });
+    
 }
 
 void MainMenuScene::onTutorialButtonClicked(cocos2d::Ref* sender)
